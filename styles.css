@@ -430,3 +430,18 @@ body::after {
     font-size: 2rem;
   }
 }
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .nav li {
+    margin-bottom: 0.5rem;
+  }
+  .nav a {
+    font-size: 1rem;
+    padding: 0.25rem;
+  }
+}
